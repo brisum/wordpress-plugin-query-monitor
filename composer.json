@@ -1,0 +1,21 @@
+{
+  "name": "brisum/wordpress-plugin-query-monitor",
+  "description": "Wordpress add-on for Query Monitor",
+  "keywords": [
+    "wordpress"
+  ],
+  "homepage": "https://github.com/brisum/wordpress-plugin-query-monitor",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Oleksandr Manchenko",
+      "email": "omanchenko@brisum.com",
+      "homepage": "http://brisum.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Brisum\\Wordpress\\Plugin\\QueryMonitor\\": "src/"
+    }
+  }
+}
